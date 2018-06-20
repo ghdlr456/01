@@ -15,6 +15,7 @@
 		04E16BD820DA284C004A6244 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BD720DA284C004A6244 /* TableViewCell.swift */; };
 		04E16BDA20DA2C6A004A6244 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BD920DA2C6A004A6244 /* MapViewController.swift */; };
 		04E16BDD20DA2D25004A6244 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E16BDC20DA2D25004A6244 /* MapKit.framework */; };
+		04E16BDF20DA3741004A6244 /* totalmapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BDE20DA3741004A6244 /* totalmapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04E16BD720DA284C004A6244 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		04E16BD920DA2C6A004A6244 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		04E16BDC20DA2D25004A6244 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04E16BDE20DA3741004A6244 /* totalmapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalmapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				04E16BD520DA27FE004A6244 /* myTableViewController.swift */,
 				04E16BD720DA284C004A6244 /* TableViewCell.swift */,
 				04E16BD920DA2C6A004A6244 /* MapViewController.swift */,
+				04E16BDE20DA3741004A6244 /* totalmapViewController.swift */,
 			);
 			path = hoikzzang;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				04E16BC420DA277B004A6244 /* AppDelegate.swift in Sources */,
 				04E16BD620DA27FE004A6244 /* myTableViewController.swift in Sources */,
 				04E16BDA20DA2C6A004A6244 /* MapViewController.swift in Sources */,
+				04E16BDF20DA3741004A6244 /* totalmapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
