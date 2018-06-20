@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		04E16BC420DA277B004A6244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BC320DA277B004A6244 /* AppDelegate.swift */; };
-		04E16BC620DA277B004A6244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BC520DA277B004A6244 /* ViewController.swift */; };
 		04E16BC920DA277B004A6244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E16BC720DA277B004A6244 /* Main.storyboard */; };
 		04E16BCB20DA277B004A6244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E16BCA20DA277B004A6244 /* Assets.xcassets */; };
 		04E16BCE20DA277B004A6244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E16BCC20DA277B004A6244 /* LaunchScreen.storyboard */; };
+		04E16BD620DA27FE004A6244 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BD520DA27FE004A6244 /* myTableViewController.swift */; };
+		04E16BD820DA284C004A6244 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E16BD720DA284C004A6244 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04E16BC020DA277B004A6244 /* hoikzzang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoikzzang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E16BC320DA277B004A6244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04E16BC520DA277B004A6244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E16BC820DA277B004A6244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E16BCA20DA277B004A6244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E16BCD20DA277B004A6244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E16BCF20DA277B004A6244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E16BD520DA27FE004A6244 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		04E16BD720DA284C004A6244 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				04E16BC320DA277B004A6244 /* AppDelegate.swift */,
-				04E16BC520DA277B004A6244 /* ViewController.swift */,
 				04E16BC720DA277B004A6244 /* Main.storyboard */,
 				04E16BCA20DA277B004A6244 /* Assets.xcassets */,
 				04E16BCC20DA277B004A6244 /* LaunchScreen.storyboard */,
 				04E16BCF20DA277B004A6244 /* Info.plist */,
+				04E16BD520DA27FE004A6244 /* myTableViewController.swift */,
+				04E16BD720DA284C004A6244 /* TableViewCell.swift */,
 			);
 			path = hoikzzang;
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E16BC620DA277B004A6244 /* ViewController.swift in Sources */,
+				04E16BD820DA284C004A6244 /* TableViewCell.swift in Sources */,
 				04E16BC420DA277B004A6244 /* AppDelegate.swift in Sources */,
+				04E16BD620DA27FE004A6244 /* myTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
